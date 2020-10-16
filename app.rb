@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     @repeats = ""
     @number.times do 
-      @repeats += @phrase
+      @repeats += "#{@phrase}
   end 
   
   #get '/say/:word1/:word2/:word3/:word4/:word5'
