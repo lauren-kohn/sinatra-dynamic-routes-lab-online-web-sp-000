@@ -5,5 +5,21 @@ class App < Sinatra::Base
   get '/reversename/:name' do
   
   end
+  
+  get '/square/:number' do 
+    
+  end 
+  
+  get '/say/:number/:phrase' do 
+    
+  end 
+  
+  get '/say/:word1/:word2/:word3/:word4/:word5'
+  
+  end
+  
+  get '/:operation/:number1/:number2'
+    .to_s
+  end
 
 end
