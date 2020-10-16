@@ -7,20 +7,20 @@ class App < Sinatra::Base
     "#{@name.reverse}"
   end
   
-  get '/square/:number' do 
+  #get '/square/:number' do 
     
-  end 
+  #end 
   
-  get '/say/:number/:phrase' do 
+  #get '/say/:number/:phrase' do 
     
-  end 
+  #end 
   
-  get '/say/:word1/:word2/:word3/:word4/:word5'
+  #get '/say/:word1/:word2/:word3/:word4/:word5'
   
-  end
+  #end
   
-  get '/:operation/:number1/:number2'
-    .to_s
-  end
+  #get '/:operation/:number1/:number2'
+  #  .to_s
+  #end
 
 end
